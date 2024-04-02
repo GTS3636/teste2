@@ -1,0 +1,46 @@
+body{
+    font-size: 30px;
+    font-family: Verdana;
+    background-color: blue;
+    margin: 10px 25px 10px 25px;
+    color: white;
+}
+body.margin{
+    background-color: white;
+}
+.titulo_e_sub{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    border: 5px dotted;
+    border-radius: 20px;
+}
+nav a{
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-shadow: 4px wheat;
+}
+a:hover{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: black;
+}
+img{
+    border: 1px white solid;
+    border-radius: 20px;
+}
+figure{
+    position: relative;
+}
+figure figcaption{
+    position: absolute;
+    opacity: 0;
+}
+figure figcaption:hover{
+    transition: opacity 1s;
+    transition: background-color 1s;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
